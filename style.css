@@ -1,0 +1,78 @@
+.navbar {
+	background-color: #046070;
+	font-size: 30px;
+}
+
+/* img {
+	width: 50px;
+
+	float: left;
+} */
+
+.image-1 {
+	width: 100px;
+	height: 70px;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: rgb(123, 198, 221);
+	background-size: 100%, 100%;
+	border-radius: 50%;
+	border: 1px solid rgb(13, 241, 24);
+	background-image: none;
+}
+
+.carousel-control-next-icon:after {
+	content: ">";
+	font-size: 55px;
+	color: rgb(131, 225, 234);
+}
+
+.carousel-control-prev-icon:after {
+	content: "<";
+	font-size: 55px;
+	color: rgb(131, 225, 234);
+}
+.carousel-inner {
+	height: 90%;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgb(4, 96, 112, 0.5);
+
+	bottom: initial;
+}
+
+.card {
+	margin: 50px;
+}
+
+.row {
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 50pxs;
+	background-color: #046070;
+	color: white;
+	padding: 2%;
+}
+
+.fab {
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.fab:hover {
+	color: rgb(253, 157, 1);
+	font-size: 50px;
+	transition: all 800ms ease;
+}
